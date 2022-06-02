@@ -4,6 +4,42 @@
         <title>Multimedia con HTML</title>
     </head>
     <body>
+        <!--
+        -TOPICS
+        *imagenes y sus propiedades
+        *Videos
+        *Audio
+        ******** IMAGENES
+        Para agregar una imagen se utiliza la etiqueta <img/>
+        <img src = "imagen.jpg" alt = "texto alternativo" width="50" height="100"/> ===> esa es la sintaxis para agregar una imagen
+        -height y width son atributos de img que indican el alto y el ancho de la imagen en pixeles
+        -Se debe saber el tamaño de la imagen para no deformarla con los atributos.
+        -Con src se pueden agregar elementos externos con su link.
+        ******** VIDEO
+        Tipos de formatos de video soportados.
+        -mp4
+        -ogg
+        -webm
+        Para agregar un video se utiliza la etiqueta <video>.
+        <video height="300" width="300" controls autoplay muted>
+            <source src="video.mp4" type="video/mp4"/>
+        </video>
+        -Al igual que <img> <video> tiene los atributos width y height. Tambien le podemos agregar el atributo controls
+        que agrega los controles al video.
+        -Para buscar la ubicacion del video usamos la etiqueta <source> con un atributo src con la ubicacion y un type que indica el formato
+        -A la etiqueta <video> se le puede agregar la etiqueta autoplay que hace que el video se reproduzca de forma automatica
+        se le puede agregar en conjunto con la etiqueta muted para que se reproduzca sin sonido, el loop para que se reproduzca de forma continua.
+        ******** AUDIO
+        Tipos de formatos de audio soportados
+        -mp4
+        -ogg
+        -wav
+        Para agregar el audio usamos la etiqueta <audio>
+        <audio controls>
+            <source src = "audio.mp3" type="audio/mp3">
+        </audio>
+        -La logica es la misma que con los videos, podemos agregar las propiedades loop, controls y autoplay en este caso a la etiqueta <audio>
+        -->
         <h3>Imágenes</h3>
         <img src="imagenes/logohtml.webp" alt="Logo HTML5" width="300" height="300" />
         <img src="https://img.freepik.com/vector-gratis/logotipo-sport-motorcicly_25327-58.jpg?size=338&ext=jpg" alt="Logo moto" width="300" height="300" />
